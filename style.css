@@ -1,0 +1,75 @@
+@media screen and (min-width:576px){
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+
+    margin:50px;
+}
+
+.container-fluid{
+    background-color:aqua;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    margin:25px;
+    width: 75vw;
+    height: 100%;
+    border-radius: 25px;
+    border:20px double black;
+    box-shadow: 5px 5px;
+    
+}
+
+h1{
+
+    color:fuchsia;
+    background-color: lightyellow;
+    height: 50px;
+    border-radius: 10px;
+     padding: 10px;
+     margin: 25px;
+    letter-spacing: 10px;
+    }
+ 
+    img{
+    margin:50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px white;
+    }
+  
+    pre{
+    white-space: pre-wrap;
+     word-wrap: break-word; 
+ }
+   
+ input{
+margin:25px;
+height: 50px;
+width:50vw;
+border-radius: 10px;
+color:blue;
+font-size: x-large;
+text-align: center;
+box-shadow: 5px 5px green;
+ }
+    li{
+        margin: 25px;
+    
+    
+    }
+    .btn{
+        width:75px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: darkorange;
+
+    }
+    #recipe{
+        text-align:justify;
+        color:red;
+    }
+}
